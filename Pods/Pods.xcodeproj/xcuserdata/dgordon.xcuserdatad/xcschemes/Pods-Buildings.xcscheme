@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0820"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1C9418431E194B8D00E0D443"
-               BuildableName = "Buildings.app"
-               BlueprintName = "Buildings"
-               ReferencedContainer = "container:Buildings.xcodeproj">
+               BlueprintIdentifier = "F155DA120427700E7F31EDBB4CE12FC8"
+               BuildableName = "Pods_Buildings.framework"
+               BlueprintName = "Pods-Buildings"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1C9418431E194B8D00E0D443"
-            BuildableName = "Buildings.app"
-            BlueprintName = "Buildings"
-            ReferencedContainer = "container:Buildings.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1C9418431E194B8D00E0D443"
-            BuildableName = "Buildings.app"
-            BlueprintName = "Buildings"
-            ReferencedContainer = "container:Buildings.xcodeproj">
+            BlueprintIdentifier = "F155DA120427700E7F31EDBB4CE12FC8"
+            BuildableName = "Pods_Buildings.framework"
+            BlueprintName = "Pods-Buildings"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +60,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1C9418431E194B8D00E0D443"
-            BuildableName = "Buildings.app"
-            BlueprintName = "Buildings"
-            ReferencedContainer = "container:Buildings.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
